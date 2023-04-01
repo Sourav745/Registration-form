@@ -1,0 +1,94 @@
+*
+{
+    padding: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    background-color: aquamarine;
+}
+.container{
+    background-color: antiquewhite;
+    width: 500px;
+    padding: 15px;
+    margin: 50px auto 0;
+    border-top: 4px solid blue;
+    box-shadow: 0 0 7px  5px rgba(204, 47, 47, 0.5);
+}
+.container  h2{
+    font-size: 22px;
+    line-height: 24px;
+    padding: auto;
+    text-align: center;
+}
+.input-name{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+}
+.lock{
+    padding: 6px 10px;
+}
+.name{
+    width: 45%;
+    padding: 8px 0 8px 40px;
+}
+ .input-name  span{
+    margin-left: 30px;
+}
+.name-email{
+    width: 100%;
+    padding: 8px 0 8px 40px;
+}
+.input-name i{
+    position: absolute;
+    font-size: 16px;
+    color: blue;
+    border-right: 1px solid #cccccc;
+    padding-top: 8px;
+}
+.email{
+    padding: 8px;
+}
+.name ,.name-email{
+    border:  1px solid rgb(255, 255, 255);
+    outline: none;
+    -webkit-transition: all 0.30s ease-in-out;
+}
+.name:hover ,.name-email:hover{
+    background-color: rgb(255, 255, 255);
+}
+.name:focus, .name-email:focus{
+    border: 3px solid goldenrod;
+}
+.country{
+    display: inline-block;
+    width: 100%;
+    height: 35px;
+    padding: 0px 20px;
+    cursor: pointer;
+    border:  1px solid rgb(255, 255, 255);
+    appearance: none;
+    border: none;
+}
+.country:hover ,.country:focus{
+    color:blue;
+    font-weight: 300;
+    border-color:  goldenrod;
+}
+.submit-btn{
+   font-size: 20px;
+   color: #080808;
+   border: 2px solid rgb(187, 180, 180);
+   background-color: #ffffff;
+   border-radius: 6px;
+   font-weight: 400;
+}
+.submit-btn:hover{
+    background-color: aqua;
+    transform: scale(1.3);
+    border-radius: 0%;
+}
+
+
